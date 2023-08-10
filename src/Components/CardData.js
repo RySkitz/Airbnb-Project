@@ -1,10 +1,6 @@
-import Swimmer from "../Images/swimmer.png"
-import Wedding from "../Images/wedding.png"
-import Jak from "../Images/jak.jpg"
-
-export default [
+const CardData = [
     {
-        img:{Swimmer},
+        img: require("../Images/swimmer.png"),
         availability:"SOLD OUT",
         reviews:"5.0",
         orders:"(6)•USA",
@@ -12,7 +8,7 @@ export default [
         price:"From $136"
     },
     {
-        img:{Wedding},
+        img: require("../Images/wedding.png"),
         availability:"AVAILABLE",
         reviews:"4.8",
         orders:"(32)•USA",
@@ -20,11 +16,13 @@ export default [
         price:"From $72"
     },
     {
-        img:{Jak},
+        img: require("../Images/jak.jpg"),
         availability:"SOLD OUT",
         reviews:"5.0",
         orders:"(132)•PH",
         title:"Anti Selos Lessons",
-        price:"From $20 "
+        price:"From $20"
     }   
 ]
+
+export default CardData

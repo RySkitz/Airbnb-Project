@@ -5,7 +5,7 @@ export default function CardContent(props){
         <> 
             <div className="cards">
                 <div className="cards--image">
-                    <img src={props.img} alt="Swimmer"/>
+                    <img src={props.img} alt="Images"/>
                     <h4 className="cards--image__status"> {props.availability} </h4>
                 </div>
                 <div className="cards--text">
