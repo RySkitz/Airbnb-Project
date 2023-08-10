@@ -1,15 +1,24 @@
 import React from "react"
 
 export default function CardContent(props){
+    let statusDisplay;
+    if (props.slots === 0){
+        statusDisplay = "SOLD OUT"
+    } else if (props.location === "•Online"){
+        statusDisplay = "ONLINE"
+    } else {
+        statusDisplay = "AVAILABLE"
+    }
+
     return(
         <> 
             <div className="cards">
                 <div className="cards--image">
                     <img src={props.img} alt="Images"/>
-                    <h4 className="cards--image__status"> {props.availability} </h4>
+                    {statusDisplay && <h4 className="cards--image__status">{statusDisplay}</h4>}
                 </div>
                 <div className="cards--text">
-                    <p className="reviews"> {props.reviews} <span className="orders">{props.orders}</span></p>
+                    <p className="reviews"> {props.reviews} <span className="orders">({props.orders}){props.location}</span></p>
                     <p className="title">{props.title}</p>
                     <p className="pricing"> <span className="price">{props.price}</span>/ person</p>
                 </div>

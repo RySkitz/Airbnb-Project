@@ -7,11 +7,12 @@ export default function Card(){
         return (
             <CardStructure
                 img = {items.img}
-                availability = {items.availability}
                 reviews = {items.reviews}
                 orders = {items.orders}
+                location = {items.location}
                 title = {items.title}
                 price = {items.price}
+                slots = {items.slots}
             />
         )
     })
