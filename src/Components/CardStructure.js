@@ -1,13 +1,16 @@
 import React from "react"
 
-export default function CardContent(props){
+export default function CardStructure(props){
     let statusDisplay;
     if (props.slots === 0){
         statusDisplay = "SOLD OUT"
+    } else if (props.slots != 0){
+        statusDisplay = "AVAILABLE"
     } else if (props.location === "•Online"){
         statusDisplay = "ONLINE"
-    } else {
-        statusDisplay = "AVAILABLE"
+    }
+    else {
+        statusDisplay = "N/A"
     }
 
     return(

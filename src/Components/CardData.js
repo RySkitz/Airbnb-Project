@@ -9,7 +9,7 @@ const CardData = [
         slots: 0
     },
     {
-        img: "images/wedding.png",
+        img: "/images/wedding.png",
         reviews: "4.8",
         orders: "32",
         location: "•Online",
