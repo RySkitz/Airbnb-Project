@@ -1,5 +1,6 @@
 import React from "react"
-import Group from "../Images/group.png"
+
+const Group = "images/group.png"
 
 export default function Hero(){
     return(
