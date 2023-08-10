@@ -1,5 +1,6 @@
 const CardData = [
     {
+        key: 1,
         img: "/images/swimmer.png",
         reviews: "5.0",
         orders: "6",
@@ -9,6 +10,7 @@ const CardData = [
         slots: 0
     },
     {
+        key: 2,
         img: "/images/wedding.png",
         reviews: "4.8",
         orders: "32",
@@ -18,6 +20,7 @@ const CardData = [
         slots: 2
     },
     {
+        key: 3,
         img: "/images/jak.jpg",
         reviews: "5.0",
         orders: "132",
@@ -27,6 +30,7 @@ const CardData = [
         slots: 5 
     },
     {
+        key: 4,
         img: "/images/50cent.jpg",
         reviews: "4.2",
         orders: "61",

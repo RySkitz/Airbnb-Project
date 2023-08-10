@@ -6,10 +6,10 @@ export default function Card(){
     const CardElements = CardData.map(item => {
         return (
             <CardStructure
-                key = {item.id}
+                key = {item.key}
                 {...item}     
             />
-        )
+        )   
     })
 
     return(
