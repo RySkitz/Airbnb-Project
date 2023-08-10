@@ -25,6 +25,6 @@ export default [
         reviews:"5.0",
         orders:"(132)•PH",
         title:"Anti Selos Lessons",
-        price:"From $20"
+        price:"From $20 "
     }   
 ]
